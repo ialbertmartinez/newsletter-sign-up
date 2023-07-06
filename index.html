@@ -26,44 +26,44 @@
 				color: hsl(228, 45%, 44%);
 			}
 		</style>
+		<link rel="stylesheet" href="./pages/index.css" />
 	</head>
 	<body>
 		<div class="page">
 			<!-- Sign-up form start -->
-			<header class="header">
-				<h1 class="header__title">Stay updated!</h1>
-				<p class="header__intro">
-					Join 60,000+ product managers receiving monthly updates on:
-				</p>
-				<ul class="header__list">
-					<li class="header__list-item">
-						Product discovery and building what matters
-					</li>
-					<li class="header__list-item">
-						Measuring to ensure updates are a success
-					</li>
-					<li class="header__list-item">And much more!</li>
-				</ul>
-				<img
-					src="./assets/images/illustration-sign-up-desktop.svg"
-					alt=""
-					class="header__image"
-				/>
-			</header>
-			<form class="form">
-				<label class="form__label" for="email">Email address</label>
-				<input
-					id="email"
-					name="email"
-					type="email"
-					class="form__input"
-					placeholder="email@company.com"
-					required
-				/>
-				<button type="submit" class="form__button">
-					Subscribe to monthly newsletter
-				</button>
-			</form>
+			<main class="component">
+				<div class="component__image"></div>
+				<div class="component__details">
+					<h1 class="component__title">Stay updated!</h1>
+					<p>
+						Join 60,000+ product managers receiving monthly updates on:
+					</p>
+					<ul class="component__list">
+						<li class="component__list-item">
+							Product discovery and building what matters
+						</li>
+						<li class="component__list-item">
+							Measuring to ensure updates are a success
+						</li>
+						<li class="component__list-item">And much more!</li>
+					</ul>
+				</div>
+
+				<form class="form">
+					<label class="form__label" for="email">Email address</label>
+					<input
+						id="email"
+						name="email"
+						type="email"
+						class="form__input"
+						placeholder="email@company.com"
+						required
+					/>
+					<button type="submit" class="form__button">
+						Subscribe to monthly newsletter
+					</button>
+				</form>
+			</main>
 
 			<!-- Sign-up form end -->
 
