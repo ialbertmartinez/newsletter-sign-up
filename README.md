@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github repo for Newsletter Sign-Up](https://ialbertmartinez.github.io/newsletter-sign-up/)
+- Live Site URL: [Newsletter Sign-Up Live Site](https://ialbertmartinez.github.io/newsletter-sign-up/)
 
 ## My process
 
@@ -45,7 +45,6 @@ Users should be able to:
 - BEM methodology
 - JavaScript:
   - Custom Form validation
-  - Web Events
 - CSS
 - HTML Form
 - Web Events
