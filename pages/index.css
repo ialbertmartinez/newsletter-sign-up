@@ -1,5 +1,6 @@
 @import url("../vendor/normalize.css");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 @import url("../blocks/page.css");
-@import url("../blocks/component.css");
+@import url("../blocks/sign-up.css");
+@import url("../blocks/success.css");
 @import url("../blocks/form.css");
+@import url("../blocks/button.css");

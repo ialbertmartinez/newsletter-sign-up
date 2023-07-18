@@ -1,0 +1,53 @@
+.button {
+	line-height: 2.5;
+	padding: 4px 20px;
+	min-width: 100%;
+	margin: 0 0 32px;
+	border: 1px solid hsl(231, 25%, 29%);
+	border-radius: 6px;
+	background-color: hsl(234, 29%, 20%);
+	color: hsl(0, 0%, 100%);
+	box-shadow: inset 2px 2px 3px hsla(233, 32%, 49%, 0.805),
+		inset -2px -2px 3px hsla(234, 37%, 15%, 0.7);
+}
+
+.button:active {
+	background-image: linear-gradient(
+		to right,
+		hsl(346, 100%, 66%),
+		hsl(12, 100%, 63%)
+	);
+	border: 1px solid hsla(12, 75%, 46%, 0.807);
+}
+
+.button_type_dismiss {
+	margin: 150px auto 0;
+}
+
+@media screen and (min-width: 826px) {
+	.button:hover {
+		cursor: pointer;
+		background-image: linear-gradient(
+			to right,
+			hsl(346, 94%, 72%),
+			hsl(12, 65%, 63%)
+		);
+		box-shadow: inset 2px 2px 3px hsla(346, 97%, 69%, 0.905),
+			inset -2px -2px 3px hsla(12, 79%, 54%, 0.807);
+		border: 1px solid hsla(12, 75%, 46%, 0.807);
+	}
+	.button:active {
+		background-image: linear-gradient(
+			to right,
+			hsl(346, 100%, 66%),
+			hsl(12, 100%, 63%)
+		);
+		box-shadow: inset 2px 2px 3px hsla(346, 97%, 69%, 0.905),
+			inset -2px -2px 3px hsla(12, 79%, 54%, 0.807);
+		border: 1px solid hsla(12, 75%, 46%, 0.807);
+	}
+	.button_type_dismiss {
+		display: block;
+		margin: auto;
+	}
+}

@@ -1,23 +1,46 @@
+@font-face {
+	font-family: "Roboto";
+	src: url("https://practicum-content.s3.us-west-1.amazonaws.com/web-code/fonts/moved_roboto-400.woff")
+		format("woff");
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Roboto";
+	src: url("https://practicum-content.s3.us-west-1.amazonaws.com/web-code/fonts/moved_roboto-200.woff")
+		format("woff");
+	font-weight: 200;
+}
+@font-face {
+	font-family: "Roboto";
+	src: url("https://practicum-content.s3.us-west-1.amazonaws.com/web-code/fonts/moved_roboto-700.woff")
+		format("woff");
+	font-weight: 700;
+}
+
 *,
 *::before,
 *::after {
-	/* margin: 0;
-	padding: 0; */
 	box-sizing: border-box;
-	outline: 1px solid red;
+}
+body {
+	background-color: hsl(234, 29%, 20%);
+}
+.page {
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	font-family: "Roboto", "Inter", "Arial", sans-serif;
+	line-height: 1.5;
+	color: hsl(234, 29%, 20%);
 }
 
-.page {
-	max-width: 375px;
-	/* margin-left: auto;
-	margin-right: auto; */
-	/* display: flex;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center; */
-
-	font-family: Roboto, Inter, Arial, sans-serif;
-	font-size: 16px;
-	line-height: 20px;
-	background-color: hsl(248, 19%, 22%);
+@media screen and (min-wdth: 826px) {
+	.page {
+		max-width: 100%;
+		padding: 40px;
+		min-height: auto;
+		font-size: 16px;
+		line-height: 1.5;
+		background: hsl(236, 29%, 20%);
+	}
 }
