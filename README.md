@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Newsletter Sign-Up: Mobile Design](./assets/images/mobile-design_sign-up-01.png)![Newsletter Sign-Up: Desktop Design](./assets/imagesdesktop-design_sign-up-02.png)
+![Newsletter Sign-Up: Mobile Design](./assets/images/mobile-design_sign-up-01.png)![Newsletter Sign-Up: Desktop Design](./assets/images/desktop-design_sign-up-02.png)
 
 ### Links
 
